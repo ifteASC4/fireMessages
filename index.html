@@ -14,14 +14,13 @@
 
 
 
-    <!--jquery-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   
 
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Alike+Angular|Asul|Eczar" rel="stylesheet">
 
     <!--custom files-->
-    <script src="lib/js/main.js"></script>
+    
     <link rel="stylesheet" href="lib/css/style.css">
 
 </head>
@@ -51,5 +50,25 @@
             </div>
         </form>
     </div>
+
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDxLdhgEIvaYRauM3STRx9h1JpNDzKI4fY",
+            authDomain: "mychat-e6e72.firebaseapp.com",
+            databaseURL: "https://mychat-e6e72.firebaseio.com",
+            projectId: "mychat-e6e72",
+            storageBucket: "",
+            messagingSenderId: "742883599677"
+        };
+        firebase.initializeApp(config);
+
+    </script>
+
+    <!--jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="lib/js/main.js"></script>
 </body>
 </html>
